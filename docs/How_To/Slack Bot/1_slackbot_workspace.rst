@@ -65,6 +65,7 @@ After you clone the repository, you can find the slackbot project under `apps/sl
         cp .env-sample .env
    * Then, modify your configuration as needed. You need to add the environment variables in ``.env`` following the format of ``.env_sample``. The following parts describe how to access the configuration values that you will add to ``.env``:
 
+
   * You can find ``SLACK_SIGNING_SECRET`` and ``SLACK_VERIFICATION_TOKEN`` values in the `Basic Information` page of your Slack App.
 
     .. image:: slackbot_imgs/slackbot.png
